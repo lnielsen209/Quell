@@ -8,6 +8,7 @@
     "dev": "concurrently \"webpack-dev-server --open --hot\" \"NODE_ENV=development nodemon server/server.js\"",
     "test": "jest --verbose"
   },
+  "heroku-run-build-script": true,
   "keywords": [],
   "author": "",
   "license": "ISC",
